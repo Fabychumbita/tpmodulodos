@@ -1,0 +1,390 @@
+|*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth ;
+}
+
+body{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1.1rem;
+margin:0;
+padding: 0;
+color: hsl(320, 86%, 51%);
+background-color: #fcd5ce; /* rosa cálido pastel */
+min-height:100vh ;
+}
+header {
+    background-color: darksalmon;
+    color: rgb(255, 196, 237);
+    padding: 1rem;
+    display: flex;
+    align-items:center ; 
+    justify-content:space-between;
+}
+
+nav{
+    display: flex ;
+    gap:1rem ;
+
+}
+
+nav a {
+    color: blanchedalmond;
+    text-decoration: none; 
+    font-weight: bold ;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.3 ease ;
+    background-color: rgb(182, 60, 12);
+
+}
+nav a:hover{
+    background-color:darkorange ;
+
+}
+.logo{
+    width: 100px;
+    border-radius:  50%;
+    margin: 0.5em;
+}
+.title-logo{
+    display: flex;
+    margin-left:1rem ;
+}
+
+.WOMAN {
+    width: 500px;
+    border-radius:150%;
+    display:block;
+    margin-left: 50%;
+    margin-right: auto;
+
+}
+.hola{
+    text-align: center;
+    color:#d362ad
+
+}
+
+.faby{
+    text-align:center;
+    color:rgb(99, 72, 199)
+}
+
+.descripcion{
+    text-align: left;
+    color:#c5660d
+}
+
+.conocimientos{
+    text-align: center;
+}
+
+.me-gusta {
+    text-align: center;
+
+}
+
+.java{
+    width: 20%;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+.html{
+    width:20% ;
+    height: auto;
+    border-radius:10% ;
+}
+.css{
+    width:20% ;
+    height:auto;
+    border-radius:10% ;
+}
+
+.git { 
+    width:20% ;
+    height: auto ;
+    border-radius: 10% ;
+}
+.conocimientos {
+  text-align: center;
+  padding: 40px 20px;
+  color: #8e005e;
+}
+
+.contenedor-logos {
+display: flex;
+justify-content: center;       /* Centra horizontalmente todo el grupo */
+gap: 100px;                     /* Espacio entre imágenes */
+flex-wrap: wrap;               /* Para que bajen en pantallas chicas */
+margin-top: 60px;
+}
+
+.contenedor-logos img {
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(238, 7, 180, 0.267);
+  transition: transform 0.3s;
+}
+.conocimientos {
+  text-align: center;
+  padding: 40px 20px;
+  color: #8e005e;
+}
+
+.contenedor-logos {
+  display: flex;
+  justify-content: center;       /* Centra horizontalmente todo el grupo */
+  gap: 70px;                     /* Espacio entre imágenes */
+  flex-wrap: wrap;               /* Para que bajen en pantallas chicas */
+  margin-top: 50px;
+}
+
+.contenedor-logos img {
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(141, 127, 127, 0.2);
+  transition: transform 0.3s;
+  color:#070707
+}
+
+.contenedor-logos img:hover {
+transform: scale(1.05);
+}
+
+.saberes {
+    background-color: rgb(219, 140, 113);
+    color: bisque;
+    padding: 1rem;
+    display: center;
+    align-items:center ; 
+    justify-content:space-between;
+}
+
+.grid-proyectos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.tarjeta-uno,
+.tarjeta-dos {
+  width: 250px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.proyectos{
+  color: #dd0707;
+  text-align:center ;
+}
+h5{
+  text-align: center;
+}
+
+.comentarios{
+  text-align: center;
+  text-decoration:double;
+}
+
+.form {
+  max-width:400px;
+  padding: 20px;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 10px;
+  background-color: #d48c70;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: rgb(226, 47, 47);
+  gap: 20px;
+}
+
+.form h4 {
+  margin-top: 0;
+  color: #fcf802;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #333232;
+  border-radius: 5px;
+}
+#form {
+  display: flex;
+  align-content:space-around;
+}
+
+
+
+
+.cuadro-contacto {
+  background-color: #d8503e; /* rosa claro */
+  border: 2px solid #dd0707; /* borde violeta oscuro */
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 600px;
+  text-align: center;
+  color:#fcf802;
+  box-shadow: 0 0 15px rgba(209, 197, 182, 0.1);
+  flex-wrap: wrap;
+
+
+
+}
+
+.cuadro-contacto h5 {
+  margin-top: 0;
+  font-size: 28px;
+  color:aliceblue;
+}
+
+.cuadro-contacto a {
+  color: #46b6b0;
+  text-decoration:none;
+  justify-content: center;
+}
+
+.p{
+    color: #8e005e;
+}
+
+#contacto {
+display : flex;
+align-content: space-between;
+}
+
+
+
+
+.pie {
+  background-color: #d464cb; /* fondo claro, cambiá el color si querés */
+  border: 2px solid #f1f50d; /* borde rosa fuerte */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1); /* sombra suave */
+  color: #003300; /* color del texto */
+}
+
+.pie ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pie a {
+  color: rgb(54, 6, 94);
+  text-decoration: none;
+}
+
+.pie a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  /* Estilos solo para celulares */
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title-logo {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .WOMAN {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .descripcion {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .contenedor-logos {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contenedor-logos img {
+    width: 70%;
+  }
+
+  .grid-proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta-uno,
+  .tarjeta-dos {
+    width: 90%;
+  }
+
+  #contacto {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .form,
+  .cuadro-contacto {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .pie ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .pie {
+    padding: 10px;
+    margin: 20px auto;
+  }
+}
